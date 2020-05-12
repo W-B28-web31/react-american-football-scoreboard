@@ -38,8 +38,7 @@ function App() {
     const quarterBtn = e => {
       if(quarter < 4) {
         setQuarter(quarter + 1);
-      }
-        if(quarter === 4){
+      } else {
           setQuarter(1);
         }
       
@@ -63,7 +62,12 @@ function App() {
             <div className="away__score">{awayScore}</div>
           </div>
         </div>
-        <BottomRow />
+
+
+        <BottomRow quarter={quarter} />
+
+
+        
       </section>
       <section className="buttons">
         <div className="homeButtons">
