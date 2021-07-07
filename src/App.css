@@ -114,7 +114,9 @@
 
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
+.homeButtons__extraPoint,
 .awayButtons__touchdown,
+.awayButtons__extraPoint,
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
